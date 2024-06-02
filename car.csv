@@ -1,0 +1,26 @@
+make,model,year,displacement,horsepower,mpg
+Toyota,Corolla,2018,1.8,139,28
+Honda,Civic,2017,2.0,158,32
+Ford,Mustang,2019,5.0,460,16
+Chevrolet,Camaro,2018,6.2,455,19
+Nissan,Altima,2016,2.5,182,27
+Hyundai,Sonata,2019,2.4,185,28
+BMW,3 Series,2017,2.0,248,25
+Mercedes-Benz,C-Class,2018,2.0,241,24
+Audi,A4,2016,2.0,252,27
+Subaru,Outback,2019,2.5,175,28
+Jeep,Wrangler,2018,3.6,285,18
+Dodge,Charger,2017,6.4,485,16
+Tesla,Model 3,2020,0.0,283,113
+Toyota,RAV4,2018,2.5,176,26
+Honda,CR-V,2017,2.4,184,28
+Ford,F-150,2019,5.0,395,17
+Chevrolet,Silverado,2018,5.3,355,16
+Nissan,Rogue,2016,2.5,170,26
+Hyundai,Tucson,2019,2.4,181,23
+BMW,X5,2017,3.0,300,20
+Mercedes-Benz,GLC,2018,2.0,241,22
+Audi,Q5,2016,2.0,252,25
+Subaru,Forester,2019,2.5,182,26
+Jeep,Grand Cherokee,2018,3.6,295,19
+Dodge,Durango,2017,5.7,360,14
