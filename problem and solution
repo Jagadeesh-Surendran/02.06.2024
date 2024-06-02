@@ -1,0 +1,42 @@
+Problem Statement:
+
+You have a dataset containing information about various cars, 
+including their make, model, year, engine displacement, horsepower,
+and fuel efficiency (in miles per gallon, or MPG). 
+Your task is to analyze this dataset and create visualizations using Matplotlib to 
+explore the relationships between these variables.
+
+
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the dataset
+cars = pd.read_csv('cars.csv')
+
+# Print the first few rows of the dataset
+print(cars.head())
+
+# Scatter plot: Horsepower vs. MPG
+plt.scatter(cars['horsepower'], cars['mpg'], alpha=0.5)
+plt.title('Horsepower vs. MPG')
+plt.xlabel('Horsepower')
+plt.ylabel('MPG')
+plt.show()
+
+# Bar plot: Average MPG by car make
+mpg_by_make = cars.groupby('make')['mpg'].mean().sort_values(ascending=False)
+mpg_by_make.plot(kind='bar', figsize=(10, 6))
+plt.title('Average MPG by Car Make')
+plt.xlabel('Car Make')
+plt.ylabel('Average MPG')
+plt.xticks(rotation=90)
+plt.show()
+
+# Histogram: Distribution of engine displacement
+plt.hist(cars['displacement'], bins=20, edgecolor='black')
+plt.title('Distribution of Engine Displacement')
+plt.xlabel('Engine Displacement')
+plt.ylabel('Frequency')
+plt.show()
